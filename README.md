@@ -107,13 +107,8 @@ credit-card-fraud-detection/
 │
 ├── demo/
 │   └── app.py                             ← Streamlit interactive demo
-│
-└── src/                                   ← Reusable Python modules
-    ├── data_loader.py
-    ├── preprocessor.py
-    ├── models.py
-    ├── evaluator.py
-    └── explainer.py
+
+
 ```
 
 ---
