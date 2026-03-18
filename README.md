@@ -22,7 +22,7 @@ This project implements a complete, production-ready **AI-powered Credit Card Fr
 **Dataset:** [Kaggle ULB Credit Card Fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
 **Industry context:** $32.34B in global card fraud losses annually — ML reduces this by 60–70%
 
-### 🏆 Key Results
+###  Key Results
 
 | Metric | Target | Achieved |
 |--------|--------|----------|
@@ -119,7 +119,7 @@ credit-card-fraud-detection/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -348,7 +348,7 @@ What it adds:
 
 ---
 
-## 🔬 Key Techniques
+##  Key Techniques
 
 ### Handling Class Imbalance (577:1 ratio)
 ```python
@@ -430,7 +430,7 @@ Naive classifier (predict everything as legitimate):
 
 ---
 
-## 🌐 FastAPI Endpoints
+##  FastAPI Endpoints
 
 After running NB07 and starting the server:
 
@@ -488,7 +488,7 @@ docker run -p 8000:8000 fraud-detection-api
 
 ---
 
-## 📈 Business Impact
+##  Business Impact
 
 | Metric | Current (Rules) | ML System | Improvement |
 |--------|----------------|-----------|-------------|
@@ -533,7 +533,7 @@ docker run -p 8000:8000 fraud-detection-api
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Full requirements.txt
 ```
@@ -567,7 +567,7 @@ pip install lightgbm catboost httpx   # NB05 extras
 
 ---
 
-## 📋 Project Timeline (22 Days)
+##  Project Timeline (22 Days)
 
 | Phase | Days | Deliverable |
 |-------|------|-------------|
@@ -582,7 +582,7 @@ pip install lightgbm catboost httpx   # NB05 extras
 
 ---
 
-## ⚖️ Ethical Considerations & Compliance
+##  Ethical Considerations & Compliance
 
 ### Regulatory Compliance
 - **GDPR Article 22** — All automated decisions include SHAP explanations for customer right-to-explanation. Human review required for high-risk flags.
@@ -602,7 +602,7 @@ pip install lightgbm catboost httpx   # NB05 extras
 
 ---
 
-## 📚 References
+##  References
 
 1. Dal Pozzolo, A., Caelen, O., Johnson, R. A., & Bontempi, G. (2015). *Calibrating Probability with Undersampling for Unbalanced Classification*. IEEE SSCI.
 2. Dal Pozzolo, A. (2017). *Adaptive Machine Learning for Credit Card Fraud Detection* [PhD Thesis]. ULB.
@@ -617,7 +617,7 @@ pip install lightgbm catboost httpx   # NB05 extras
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **`FileNotFoundError: data/creditcard.csv`**  
 → Download the dataset from Kaggle first. The notebooks fall back to `sample_creditcard.csv` automatically if the full dataset is missing.
@@ -639,7 +639,7 @@ pip install lightgbm catboost httpx   # NB05 extras
 
 ---
 
-## 👤 Author
+##  Author
 
 **[Your Name]**  
 AI & ML Internship — Case Study Project  
@@ -648,12 +648,3 @@ Domain: Financial Services & FinTech
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.  
-Dataset is licensed under the **Open Database Licence (ODbL)** by Worldline and ULB.  
-See [LICENSE](LICENSE) for full details.
-
----
-
-*Built as part of a 22-day AI/ML internship case study. All model results are reproducible by running the notebooks in order on the Kaggle ULB dataset.*
